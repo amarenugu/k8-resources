@@ -7,6 +7,6 @@ metadata:
     environment: dev
     purpose: poc
 spec:
-  container:
+  containers:
   - name: nginx # Container name
     image: nginx # By default it will get from docker hub
