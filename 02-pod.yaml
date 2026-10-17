@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: niginx #Pod name
+  name: nginx #Pod name
   labels:
     project: roboshop
     environment: dev
