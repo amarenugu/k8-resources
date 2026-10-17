@@ -8,5 +8,5 @@ metadata:
     purpose: poc
 spec:
   container:
-    name: nginx # Container name
+  - name: nginx # Container name
     image: nginx # By default it will get from docker hub
