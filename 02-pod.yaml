@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: niginx #Pod name
+  labels:
+    project: roboshop
+    environment: dev
+    purpose: poc
+spec:
+  container:
+    name: nginx # Container name
+    image: nginx # By default it will get from docker hub
