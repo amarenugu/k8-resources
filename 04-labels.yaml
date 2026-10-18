@@ -4,6 +4,6 @@ metadata:
   name: labels
   labels:
     project: roboshop
-spec:
-  containers: labels
-  
+    environemnt: dev
+    purpose: poc
+    
