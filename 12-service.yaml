@@ -23,6 +23,7 @@ metadata:
     project: roboshop
     environment: dev
     purpose: frontend
+    component: frontend
     tier: frontend
 spec:
   containers:

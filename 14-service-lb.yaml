@@ -5,6 +5,8 @@ metadata:
   labels:
     project: roboshop
     environment: dev
+    component: frontend
+
 spec:
   type: LoadBalancer
   selector:
