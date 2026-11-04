@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: efs-static
+spec:
+  #here capacity and storage are dummy in EFS, just for api definition
+  capacity:
+    storage: 5Gi
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteMany
+  storageClassName: "" #for static provisioning SC should be empty
+  persistentVolumeReclaimPolicy: Retain
+  csi:
+    driver: efs.csi.aws.com
+    volumeHandle: efs:fs-06c814ffe627df2e2
